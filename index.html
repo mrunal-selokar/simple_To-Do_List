@@ -3,13 +3,17 @@
 <head>
 	<title>JQuery</title>
 	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-	<link rel="stylesheet" type="text/css" href="demo.css">
-	<script src="demoscript.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
 </head>
 <body>
+	<div id="rcircle">To-Do</div>
+	<div class="container">
 	<h2>To-Do list</h2>
-	<input type="text" placeholder="New Item"/>
-	<button id="add">Add</button>
+	<input type="text" placeholder="New Item", required />
+	<span id="plus" class="glyphicon glyphicon-plus"></span>
 	<ol id="mylist"></ol>
+	</div>
 </body>
 </html>

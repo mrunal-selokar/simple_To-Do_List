@@ -1,10 +1,46 @@
+#rcircle{
+	background-color: orange;
+	color: #fff;
+	font-weight: bolder;
+	text-align:center;
+	line-height: 80px;
+	float: right;
+	width: 80px;
+	height: 80px;
+/*	position: absolute;;*/
+	border-radius: 50%;
+	margin-top: 20px;
+}
+#plus{
+	width: 50px;
+	height: 50px;
+	text-align:center;
+	line-height: 50px;
+	background-color: orange;
+	color: #fff;
+	border-radius: 50%;
+	cursor: pointer;
+}
 h1{
 	color: #1abc9c;
 }
 .rem{
-	margin-left: 5px;
-	background-color: white;
-	color: red;
+	background-color: #A5F;
+	color: white;
 	border: none;
 	cursor: pointer;
+	float: right;
+}
+#mylist{
+	margin-top: 10px;
+}
+li{
+	width: 200px;
+	height: 60px;
+	background-color: #A5F;
+	color: white;
+	margin:5px;
+	margin-left: none!important;
+	padding: 5px;
+	font-size: 18px;
 }
